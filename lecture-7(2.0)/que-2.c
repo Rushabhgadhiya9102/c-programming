@@ -6,10 +6,13 @@ main(){
 	
 	printf(" press 1 for English \n press 2 for Hindi \n press 3 for Gujarati \n");
 	
-	printf(" please selet the language:");
+	printf(" please selet the language:");  // ENTER THE LANGUAGE
 	scanf("%d",&selectLanguage);
 	
-	switch(selectLanguage){
+	
+	// SWITCH CASE FOR THE LANGUAGE 
+	
+	switch(selectLanguage){  
 		
 		case 1:
 			printf("\n English \n");
@@ -33,8 +36,12 @@ main(){
 		   printf("\n No language is selected");    
 	}	
 	
-	printf(" Please select recahrge pack: ");
+	
+	
+	printf(" Please select recahrge pack: "); // ENTER THE RECAHRGE PACK
 	scanf("%d",&selectRechargepack);
+	
+	// SWITCH FOR SELECT RECHARGE PACK
 	
 	switch(selectRechargepack){
 		case 1:
