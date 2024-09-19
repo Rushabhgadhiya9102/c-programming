@@ -2,16 +2,20 @@
 
 main(){
 	
-	int n1=0,n2=1,i,num;
-	 printf("Enter  a number:");
-     scanf("%d",&num);
-     printf("%d %d",n1,n2);
+	int num, result, i;
+	int first=0;
+	int second=1;
 	
-	 for(i=2 ; i<num ; i++)
-  {
-      	int n3=n1+n2;
-    	printf(" %d",n3);
-    	n1=n2;
-    	n2=n3;
-  }
+	printf("enter the number: ");
+	scanf("%d",&num);
+	
+	printf("%d %d ",first,second);
+	
+	for(i=1; i<=num; i++){
+		
+		result= first+second;
+		printf("%d ",result);
+		first=second;
+		second=result;
+	}
 }
