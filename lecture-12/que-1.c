@@ -2,26 +2,17 @@
 
 main(){
 	
-	int arr[5];
+	int i,j,size;
 	
-	printf("enter the value of 0 index: ");
-	scanf("%d",&arr[0]);
+	printf("enter the size:");
+	scanf("%d",&size);
 	
-	printf("enter the value of 1 index: ");
-	scanf("%d",&arr[1]);
+	int arr[size];
 	
-	printf("enter the value of 2 index: ");
-	scanf("%d",&arr[2]);
+	for(i=0; i<size; i++){
+		printf("enter the arr[%d]: ",i);
+		scanf("%d", &arr[i]);
+	}
 	
-	printf("enter the value of 3 index: ");
-	scanf("%d",&arr[3]);
-	
-	printf("enter the value of 4 index: ");
-	scanf("%d",&arr[4]);
-	
-	printf("%d\n",arr[0]);
-	printf("%d\n",arr[1]);
-	printf("%d\n",arr[2]);
-	printf("%d\n",arr[3]);
-	printf("%d\n",arr[4]);
+	printf("the size of the array is: %d",size);
 }

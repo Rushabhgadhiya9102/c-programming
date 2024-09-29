@@ -2,10 +2,23 @@
 
 main(){
 	
-	int i, arr[5]={10,20,30,40,50};
-	
-	for(i=0; i<5;i++){
-		printf("%d\n", arr[i]);
-	}
-	
+	int i,j,size;
+    float sum, avg;
+
+    printf("enter the size:");
+    scanf("%d",&size);
+
+    int arr[size];
+
+    for(i=0; i<size; i++){
+
+      printf("enter the arr[%d]: ",i);
+      scanf("%d",&arr[i]);
+
+      sum += arr[i];
+    }
+
+    avg = sum / size;
+
+    printf("the avg is : %.1f",avg);
 }
