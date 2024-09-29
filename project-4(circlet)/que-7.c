@@ -5,22 +5,16 @@ main(){
 	int i,j,k;
 	
 	for(i=1; i<=5; i++){
-		for(j=1; j<=i; j++){
-			printf("%d ",j);
-		}
 		
-		for(k=5; k>i; k--){
-			printf("  ");
-		}
-		
-		for(k=5; k>i; k--){
-			printf("  ");
-		}
-		
-		for(j=i; j>=1; j--){
-			printf("%d ",j);
+		if(i == 1 || i == 3){
+			printf("* * * * *");
+		}else if(i == 2){
+			printf("*       *");
+		}else if(i == 4 || i == 5){
+			printf("*");
 		}
 		
 		printf("\n");
 	}
+	
 }
