@@ -11,8 +11,6 @@ printf("Enter the cols: ");		// ENTER THE COLUMNS
 scanf("%d",&col);
 
 int arr[row][col];		
-int max = arr[0][0];			// MAX VARIABLE DECLARE WHICH HAS THE ARRAY START FORM 0
-
 
 // ------------ LOOP FOR TAKING INPUT OF THE ELEMENT ------------
 
@@ -24,6 +22,8 @@ for(i=0; i<row; i++){			// OUTER LOOP
 		scanf("%d",&arr[i][j]);
 	}
 }
+
+int max = arr[0][0];			// MAX VARIABLE DECLARE WHICH HAS THE ARRAY START FORM 0
 
 // ------------ LOOP FOR PRINTING THE ELEMENT ------------
 
