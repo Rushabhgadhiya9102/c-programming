@@ -1,0 +1,30 @@
+Cybersecurity refers to the practices, technologies, and processes designed to protect digital information, systems, and networks from unauthorized access, use, disclosure, disruption, modification, or destruction. It involves a combination of people, processes, and technology to safeguard digital assets and prevent cyber threats.
+
+Types of Cybersecurity
+
+Network Security: Protects computer networks from cyber threats by controlling incoming and outgoing network traffic based on predetermined security rules.
+Cloud Security: Protects cloud computing environments from cyber threats by implementing security controls, policies, and technologies.
+Endpoint Security: Protects endpoint devices such as laptops, desktops, and mobile devices from cyber threats by implementing security controls, policies, and technologies.
+Application Security: Protects software applications from cyber threats by implementing security controls, policies, and technologies.
+Data Security: Protects sensitive data from unauthorized access, use, disclosure, disruption, modification, or destruction.
+Cybersecurity Threats
+
+Malware: Software designed to harm or exploit a computer system.
+Phishing: A type of social engineering attack that involves tricking individuals into revealing sensitive information.
+Ransomware: A type of malware that encrypts a victim's files and demands a ransom in exchange for the decryption key.
+Denial of Service (DoS): A type of attack that involves overwhelming a computer system with traffic in order to make it unavailable to users.
+Man-in-the-Middle (MitM): A type of attack that involves intercepting communication between two parties in order to steal sensitive information.
+Cybersecurity Best Practices
+
+Use Strong Passwords: Use unique and complex passwords for all accounts.
+Keep Software Up-to-Date: Regularly update operating systems, applications, and software to ensure you have the latest security patches.
+Use Antivirus Software: Install and regularly update antivirus software to protect against malware.
+Use a Firewall: Enable the firewall on your computer and network to block unauthorized access.
+Use Encryption: Use encryption to protect sensitive data both in transit and at rest.
+Cybersecurity Careers
+
+Security Analyst: Responsible for monitoring and analyzing security event logs to identify potential security threats.
+Penetration Tester: Responsible for simulating cyber attacks on computer systems to test their security.
+Chief Information Security Officer (CISO): Responsible for overseeing and implementing an organization's cybersecurity strategy.
+Security Consultant: Responsible for providing cybersecurity advice and guidance to organizations.
+Incident Responder: Responsible for responding to and managing cybersecurity incidents.
