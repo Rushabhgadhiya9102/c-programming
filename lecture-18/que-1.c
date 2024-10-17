@@ -16,7 +16,7 @@ void main () {
 	
 	
 	
-	printf("enter the re-write file name: ");		// ENTER THE FILE NAME WHICH USER WANT TO RE-WRITE
+	printf("\nenter the re-write file name: ");		// ENTER THE FILE NAME WHICH USER WANT TO RE-WRITE
 	scanf("%s", &file_name);
 	
 	printf("enter the re-write file mode: ");		// ENTER THE FILE MODE WHICH USER WANT TO RE-WRITE
