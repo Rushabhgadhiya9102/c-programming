@@ -4,7 +4,7 @@
 
 void SI(float a, float b, float c){
 
-    float si = (a*b*c)/100;
+    float si = (a*b*c)/100;     // FORMULA TO FIND SIMPLE INTREST
     printf("the simple intrest : %.2f",si);
 }
 
@@ -12,17 +12,17 @@ void SI(float a, float b, float c){
 
 int main(){
 
-    float p,r,t;
+    float p,r,t;        // DECLARE THE VARIABLE
 
-    printf("enter the p: ");
+    printf("enter the p: ");        // ENTER THE VALUE
     scanf("%f",&p);
 
-    printf("enter the p: ");
+    printf("enter the p: ");        // ENTER THE VALUE
     scanf("%f",&r);
 
-    printf("enter the p: ");
+    printf("enter the p: ");        // ENTER THE VALUE
     scanf("%f",&t);
 
-    SI(p,r,t);
+    SI(p,r,t);      // CALLING THE FUNCTION
 
 }
